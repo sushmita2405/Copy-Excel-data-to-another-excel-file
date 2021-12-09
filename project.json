@@ -1,0 +1,74 @@
+{
+  "name": "Project 2",
+  "description": "Read data from excel file and copy in another excel file based on conditions.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Activities_excel2pdf_Zoom": "[1.0.15]",
+    "ActivitiesExcel2Pdf": "[1.0.3]",
+    "byMarc.JS.dropDownCheckBoxList": "[2017.1203.0]",
+    "Conversion.Activities": "[1.0.3]",
+    "Excel.Extended.Activities": "[1.0.2]",
+    "ExcelExtension.Activities": "[1.0.12]",
+    "Jagu.UserDialogs": "[6.5.2]",
+    "OcrReviewDialog.Activities": "[1.0.3.1]",
+    "Plugin.UserDialogs": "[1.0.0]",
+    "RenameMultipleColumnsInDataTable.Activities": "[1.0.0]",
+    "SelectMultipleFiles.Activities": "[1.0.1]",
+    "Spire.PDF": "[7.11.1]",
+    "UiPath.Box.Activities": "[1.2.1-preview]",
+    "UiPath.Box.IntegrationService.Activities": "[3.0.0]",
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.2]",
+    "UiPath.PDF.Activities": "[3.4.1]",
+    "UiPath.System.Activities": "[21.10.2]",
+    "UiPath.UIAutomation.Activities": "[21.10.3]",
+    "UiPathTeam.Activities.SelectMultipleFiles": "[1.0.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "50512c80-c3d9-4771-bc15-441769d7c143",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
